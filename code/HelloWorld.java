@@ -4,7 +4,7 @@ public class HelloWorld {
     public static void main(String[] args) {
         System.out.println("Hello, World");
 
-        String filename = "../allow/allow.txt";
+        String filename = "allow.txt";
 
         File file = new File(filename);
 
@@ -12,7 +12,7 @@ public class HelloWorld {
         System.out.println("isDir? " + file.isDirectory());
         System.out.println("isFile? " + file.isFile());
 
-        String filename2 = "../deny/deny.txt";
+        String filename2 = "deny.txt";
 
         File file2 = new File(filename2);
 
